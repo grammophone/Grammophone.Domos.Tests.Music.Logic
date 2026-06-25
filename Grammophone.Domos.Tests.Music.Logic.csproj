@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<ProjectGuid>{862FB17F-055B-4D73-8C00-7B2B28EAFD65}</ProjectGuid>
+		<TargetFrameworks>net472;netstandard2.1</TargetFrameworks>
+		<AssemblyTitle>Grammophone.Domos.Tests.Music.Logic</AssemblyTitle>
+		<Product>Grammophone.Domos.Tests.Music.Logic</Product>
+		<LangVersion>8.0</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Grammophone.Domos.AccessChecking\Grammophone.Domos.AccessChecking.csproj" />
+		<ProjectReference Include="..\Grammophone.Domos.Logic\Grammophone.Domos.Logic.csproj" />
+		<ProjectReference Include="..\Grammophone.Domos.Tests.Music.DataAccess\Grammophone.Domos.Tests.Music.DataAccess.csproj" />
+	</ItemGroup>
+</Project>
